@@ -1,0 +1,594 @@
+.king {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{ margin: 0 auto;
+background-image: url(../assets/bg.png) ;}
+  /* 1st part of 5 */
+/* Navbar styling */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 140px;
+    margin-right: 140px;
+   
+}
+   
+
+.display-flex {
+    display: flex;
+}
+
+/* Logo Section */
+.logo {
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact-btn {
+    background-color: #ff6700;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 150px;
+}
+
+.logo span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.nav-lekha {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1rem ;
+}
+
+.nav-lekha li {
+    margin: 0 15px;
+}
+
+
+
+
+  
+/* matha betha color */
+
+.c-1 {
+    color: orange;
+}
+
+.c-2 {
+    color: pink;
+}
+
+.c-3 {
+    color: aqua;
+}
+
+.c-4 {
+    color: blueviolet;
+}
+
+
+
+/* Second part */
+
+ .banner {
+    
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 140px ;
+    margin-right: 140px;
+    border-radius: 24px;
+    padding: 4rem;
+    
+}
+
+.banner-content{
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.h-text { 
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E ;
+    opacity: 100%;
+    
+
+}
+
+.chota-font {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+.sec-btn{
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 0.05rem solid #80a093;
+    opacity: 100%;
+    font-weight: 650;
+   
+    background-color: #111514;
+}
+
+
+.banner-img {
+    width: 475px;
+    
+} 
+
+
+
+
+
+
+
+
+/* upore akhono onek baki ache mona */
+
+.khamaka {
+    
+    
+    margin-left: 140px ;
+    margin-right: 140px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+    
+}
+
+    
+.kaluu {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+    
+
+.hasu-1{
+    padding: 32px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    color: #0E0E0E;
+    background-color: #5490F5;
+    opacity: 50%;
+    font-weight: 300px;
+    font-size: 16px;
+    
+}
+
+.btn-1 {
+    opacity: 100%;
+    border-radius: 8px;
+    border: 2px solid #295db7;
+    background-color: #295db7;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 11px 20px;
+    font-size:16px;;
+}
+
+
+
+
+
+
+
+.hasu-2{
+    padding: 32px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+    opacity: 50%;
+    font-weight: 300px;
+    font-size: 16px;
+
+}
+
+.btn-2 {
+    opacity: 100%;
+    border-radius: 8px;
+    border: 2px solid #09A15C;
+    background-color: #09A15C;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 11px 20px;
+    font-size:16px;
+}
+
+
+.hasu-3{
+    padding: 32px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    color: #0E0E0E;
+    background-color: #d1b97f;
+    opacity: 50%;
+    font-weight: 300px;
+    font-size: 16px;
+}
+
+.btn-3 {
+    opacity: 100%;
+    border-radius: 8px;
+    border: 2px solid #FFC239;
+    background-color: #FFC239;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 11px 20px;
+    font-size:16px;
+}
+
+
+.hasu-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-size: 30px;
+    color: rgb(3, 38, 122);
+}
+
+.less {
+   
+    align-items: center;
+    
+    margin-left: 850px;
+    margin-right: 850px;
+    margin-top: 70px;
+}
+.great {
+    background-color: #ff6700;
+    border-radius: 100%;
+    padding: 1rem;
+    
+    
+}
+
+
+/* story section */
+
+/* .tunku {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.our-stories{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+
+.stoy-img{
+    width: 600px;
+    height: 640px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.cc-4 {
+    background-color: #09A15C;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.cc-1 {
+    background-color: #295db7;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cc-2 {
+    background-color: #FFC239;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cc-3 {
+    background-color: #ff6700;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 20px;
+} */
+
+
+/* 5 ta chobir part */
+
+
+.our-stories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1160px;
+    height: 630px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tunku {
+    background-color: bisque;
+    border-radius: 1rem;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 700px;
+}
+
+.big-img {
+    flex: 1;
+     max-width: 540px;
+     max-height: 630px;
+    text-align: center;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    
+}
+
+.big-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.big-img .cc-4 {
+    background-color: #09A15C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.big-img h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.big-img p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.story-img {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.story-card {
+    text-align: center;
+    border: 2px solid tomato;
+    border-radius: 10px;
+}
+
+.story-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.story-card button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.story-card p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.4;
+}
+
+/* Button Colors */
+.cc-1 {
+    background-color: #295db7;
+}
+.cc-2 {
+    background-color: #FFC239;
+}
+.cc-3 {
+    background-color: #ff6700;
+}
+.cc-4 {
+    background-color: #09A15C;
+    
+}
+
+.penki {
+    margin-top: -200px;
+}
+
+/* footer part */
+
+.footer {
+    background-color: #00aaff;
+    color: #ffffff;
+    padding: 40px 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+  }
+  
+  .footer-container {
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1160px;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .footer-logo {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo h2 span {
+    font-weight: bold;
+  }
+  
+  .footer-logo p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-links {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  
+  
+  .footer-social {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+
+
+  
+
+
+
+
+/*responsive*/
+
+/*responsive 1*/
+
+@media screen and (max-width: 576px) {
+    .hideOnMobile {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        margin: 0 auto;
+        
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+    .showOnMobile, .gayeb  {
+        display: none;
+         }
+}
+
+
+/*responsive 2*/
+
+@media screen and (max-width : 576px)  {
+    .banner, .banner-content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .banner-content {
+        
+    }
+    
+} 
+
+/* responsive-3 */
+@media screen and (max-width: 576px) {
+    .khamaka  {
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+
+    .khamaka > div {
+        flex: none;
+        width: 100%;
+        
+    }
+}
+
+
+/* footer responsive */
+
